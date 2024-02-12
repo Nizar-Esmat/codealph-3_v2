@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* Facebook blue color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.platform {
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.platform h2 {
+    color: #007bff; /* Facebook blue color */
+    margin-bottom: 10px;
+}
+
+.follower-count {
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    background-color: #007bff; /* Facebook blue color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
